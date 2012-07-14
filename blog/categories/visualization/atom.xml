@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: visualization | My Octopress Blog]]></title>
+  <title><![CDATA[Category: visualization | (@trinary)]]></title>
   <link href="http://trinary.github.com/blog/categories/visualization/atom.xml" rel="self"/>
   <link href="http://trinary.github.com/"/>
-  <updated>2012-07-14T17:28:30-06:00</updated>
+  <updated>2012-07-14T17:32:08-06:00</updated>
   <id>http://trinary.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Erik Cunningham]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
