@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://trinary.github.com/atom.xml" rel="self"/>
   <link href="http://trinary.github.com/"/>
-  <updated>2012-07-14T17:19:15-06:00</updated>
+  <updated>2012-07-14T17:28:30-06:00</updated>
   <id>http://trinary.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,54 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Getting This Set Up...Again]]></title>
+    <link href="http://trinary.github.com/blog/2012/07/14/getting-this-set-up-dot-dot-dot-again/"/>
+    <updated>2012-07-14T18:38:00-06:00</updated>
+    <id>http://trinary.github.com/blog/2012/07/14/getting-this-set-up-dot-dot-dot-again</id>
+    <content type="html"><![CDATA[<h4>Hello there!</h4>
+
+<p>Once again I&#8217;m trying to get in the habit of writing.  I think the only way I&#8217;m going to be able to do it is to just start and not worry too much if what I&#8217;m writing is particularly groundbreaking.</p>
+
+<h2>Information Density</h2>
+
+<p>I&#8217;d like to start with one of my favorite subjects: information visualization and clarity of display.</p>
+
+<p>I was recently asked to implement a &#8220;dial&#8221; style representation of a single data point for a dashboard system I&#8217;m working on.  I think I managed to create something that looks ok, but I don&#8217;t think it&#8217;s a good way to display a single piece of information.  Let&#8217;s discuss why.</p>
+
+<h3>What&#8217;s a Dial?</h3>
+
+<p>By &#8220;dial&#8221;, I mean a speedometer-type representation of a value.  You have a circular layout, typically with an indicator pointing from the center to a particular spot on the circle.  By rotating clockwise, the indicator shows an increase in magnitude.</p>
+
+<h3>Why don&#8217;t I like them?</h3>
+
+<p>Dials, because of their round nature, take up a ton of space.  For that budget of display area the viewer gets only a single point of information.  It&#8217;s difficult to represent any context without making things cluttered.  You can add a reference point (e.g. a historical average), but doing so with another indicator will make it look like a clock and require a legend, using a simple dot on the circumference of the dial increases the radius of the whole visualization, and so on.</p>
+
+<p>Furthermore, they are difficult to compare to one another when several are used together.  The indicators for totally different values can be at the same plane, think 9 o&#8217;clock vs 3 o&#8217;clock on a line of clocks next to each other.</p>
+
+<p>Perhaps most importantly, they don&#8217;t use any of the typical visual indicators that our brains have been trained to associate with magnitude for a zillion years.  Bar charts are instantly parseable, because we implicitly understand that increased area = increased value.  Distance from a baseline in the case of line or area charts are similarly simple to interpret as enclosing greater area as magnitude increases.  Angular distance from an arbitrary point is a recently invented way to communicate magnitude, and one that is difficult to interpret by comparison.</p>
+
+<h3>What should you use instead?</h3>
+
+<p><a href="https://en.wikipedia.org/wiki/Bullet_graph">Stephen Few&#8217;s Bullet graphs</a> are an ideal alternative to the dial.  Here&#8217;s what you get by using them:</p>
+
+<ul>
+<li><p>A magnitude representation that makes instant sense to the brain (length)</p></li>
+<li><p>Ranges for status context that cost very little ink and space</p></li>
+<li><p>An additional indicator for historical context that can be easily understood and compared</p></li>
+<li><p>Easily scannable and comparable lists of charts</p></li>
+<li><p>A layout that makes labels and current value displays easy to add in a pleasing way.<br/>
+For example, if you have long labels you can stack multiple bullets vertically and not force your label text to wrap awkwardly or have to space them too far apart.</p></li>
+</ul>
+
+
+<h3>What&#8217;s next?</h3>
+
+<p>I&#8217;m continuing to work on data visualization, I think it&#8217;s the most fun I&#8217;ve had coding in a long time.  I&#8217;m working (quite infrequently) on a system that uses websockets to let browsers subscribe to data from various sources, and when I can I&#8217;ll add some quality displays of data.</p>
+
+<p>On friday I get to go see <a href="https://en.wikipedia.org/wiki/Edward_Tufte">Edward Tufte</a> give one of his all-day seminars on data visualization!  I cannot wait, I&#8217;ve been wanting to attend one for years and years.  I&#8217;ll definitely be writing about the class.</p>
+]]></content>
+  </entry>
   
 </feed>
