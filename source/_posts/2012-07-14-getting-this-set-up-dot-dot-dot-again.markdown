@@ -8,7 +8,7 @@ categories: [ meta, visualization ]
 #### Hello there!
 Once again I'm trying to get in the habit of writing.  I think the only way I'm going to be able to do it is to just start and not worry too much if what I'm writing is particularly groundbreaking.
 
-Information Density
+Information Display
 -------------------
 
 I'd like to start with one of my favorite subjects: information visualization and clarity of display.
