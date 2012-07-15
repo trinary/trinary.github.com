@@ -17,7 +17,7 @@ I was recently asked to implement a dial-style representation of a single data p
 
 ### What's a Dial?
 
-By dial, I mean a speedometer-type representation of a value, a gauge is another accurate name.  You have a circular layout, typically with an indicator pointing from the center to a particular spot on the circle.  By rotating, the indicator points at a different place along the circle and indicates a change in magnitude.
+By dial, I mean a speedometer-type representation of a value, gauge is another accurate name.  You have a circular layout, typically with an indicator pointing from the center to a particular spot on the circle.  By rotating, the indicator points at a different place along the circle and indicates a change in magnitude.
 
 ### Why don't I like them?
 
