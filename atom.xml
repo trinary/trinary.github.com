@@ -4,7 +4,7 @@
   <title><![CDATA[Erik Cunningham (@trinary)]]></title>
   <link href="http://trinary.github.com/atom.xml" rel="self"/>
   <link href="http://trinary.github.com/"/>
-  <updated>2012-07-14T20:11:17-06:00</updated>
+  <updated>2012-07-14T20:26:32-06:00</updated>
   <id>http://trinary.github.com/</id>
   <author>
     <name><![CDATA[Erik Cunningham]]></name>
@@ -26,15 +26,15 @@
 
 <p>I&#8217;d like to start with one of my favorite subjects: information visualization and clarity of display.</p>
 
-<p>I was recently asked to implement a &#8220;dial&#8221; style representation of a single data point for a dashboard system I&#8217;m working on.  I think I managed to create something that looks ok, but I don&#8217;t think it&#8217;s a good way to display a single piece of information.  Let&#8217;s discuss why.</p>
+<p>I was recently asked to implement a dial-style representation of a single data point for a dashboard system I&#8217;m working on.  I think I managed to create something that looks ok, but I don&#8217;t think it&#8217;s a good way to display a single piece of information.  Let&#8217;s discuss why.</p>
 
 <h3>What&#8217;s a Dial?</h3>
 
-<p>By &#8220;dial&#8221;, I mean a speedometer-type representation of a value.  You have a circular layout, typically with an indicator pointing from the center to a particular spot on the circle.  By rotating clockwise, the indicator shows an increase in magnitude.</p>
+<p>By dial, I mean a speedometer-type representation of a value.  You have a circular layout, typically with an indicator pointing from the center to a particular spot on the circle.  By rotating, the indicator points at a different place along the circle and indicates a change in magnitude.</p>
 
 <h3>Why don&#8217;t I like them?</h3>
 
-<p>Dials, because of their round nature, take up a ton of space.  For that budget of display area the viewer gets only a single point of information.  It&#8217;s difficult to represent any context without making things cluttered.  You can add a reference point (e.g. a historical average), but doing so with another indicator will make it look like a clock and require a legend, using a simple dot on the circumference of the dial increases the radius of the whole visualization, and so on.</p>
+<p>Dials, because of their round nature, take up a ton of space.  For that budget of display area the viewer gets only a single point of information.  It&#8217;s difficult to represent any context without making things cluttered.  You can add a reference point (e.g. a historical average), but doing so with another indicator will make it look like a clock and require a legend, using a simple dot on the outside of the dial increases the radius of the whole visualization, and so on.</p>
 
 <p>Furthermore, they are difficult to compare to one another when several are used together.  The indicators for totally different values can be at the same plane, think 9 o&#8217;clock vs 3 o&#8217;clock on a line of clocks next to each other.</p>
 
