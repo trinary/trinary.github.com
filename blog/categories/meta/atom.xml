@@ -4,7 +4,7 @@
   <title><![CDATA[Category: meta | Erik Cunningham (@trinary)]]></title>
   <link href="http://trinary.github.com/blog/categories/meta/atom.xml" rel="self"/>
   <link href="http://trinary.github.com/"/>
-  <updated>2012-07-14T20:26:32-06:00</updated>
+  <updated>2012-07-14T22:18:28-06:00</updated>
   <id>http://trinary.github.com/</id>
   <author>
     <name><![CDATA[Erik Cunningham]]></name>
@@ -34,7 +34,7 @@
 
 <h3>Why don't I like them?</h3>
 
-<p>Dials, because of their round nature, take up a ton of space.  For that budget of display area the viewer gets only a single point of information.  It's difficult to represent any context without making things cluttered.  You can add a reference point (e.g. a historical average), but doing so with another indicator will make it look like a clock and require a legend, using a simple dot on the outside of the dial increases the radius of the whole visualization, and so on.</p>
+<p>Dials, because of their round nature, take up a ton of space.  For that budget of display area the viewer gets only a single point of information.  It's difficult to represent any context without making things cluttered .  You can add a reference point (e.g. a historical average), but doing so with another indicator will make it look like a clock and require a legend, using a simple dot on the outside of the dial increases the radius of the whole visualization, and so on.</p>
 
 <p>Furthermore, they are difficult to compare to one another when several are used together.  The indicators for totally different values can be at the same plane, think 9 o'clock vs 3 o'clock on a line of clocks next to each other.</p>
 
@@ -56,7 +56,7 @@ For example, if you have long labels you can stack multiple bullets vertically a
 
 <h3>What's next?</h3>
 
-<p>I'm continuing to work on data visualization, I think it's the most fun I've had coding in a long time.  I'm working (quite infrequently) on a system that uses websockets to let browsers subscribe to data from various sources, and when I can I'll add some quality displays of data.</p>
+<p>I'm continuing to work on data visualization, I think it's the most fun I've had coding in a long time.  I'm working (quite infrequently) on a system that uses websockets to let browsers subscribe to data from various sources, and when I can I'll add some quality displays of data.  Outside of getting to play with websockets, it's basically an excuse to start using d3 with websocket data at high frequency and seing how it works.</p>
 
 <p>On friday I get to go see <a href="https://en.wikipedia.org/wiki/Edward_Tufte">Edward Tufte</a> give one of his all-day seminars on data visualization!  I cannot wait, I've been wanting to attend one for years and years.  I'll definitely be writing about the class.</p>
 ]]></content>
