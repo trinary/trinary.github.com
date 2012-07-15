@@ -21,7 +21,7 @@ By dial, I mean a speedometer-type representation of a value.  You have a circul
 
 ### Why don't I like them?
 
-Dials, because of their round nature, take up a ton of space.  For that budget of display area the viewer gets only a single point of information.  It's difficult to represent any context without making things cluttered.  You can add a reference point (e.g. a historical average), but doing so with another indicator will make it look like a clock and require a legend, using a simple dot on the outside of the dial increases the radius of the whole visualization, and so on.
+Dials, because of their round nature, take up a ton of space.  For that budget of display area the viewer gets only a single point of information.  It's difficult to represent any context without making things cluttered .  You can add a reference point (e.g. a historical average), but doing so with another indicator will make it look like a clock and require a legend, using a simple dot on the outside of the dial increases the radius of the whole visualization, and so on.
 
 Furthermore, they are difficult to compare to one another when several are used together.  The indicators for totally different values can be at the same plane, think 9 o'clock vs 3 o'clock on a line of clocks next to each other.
 
@@ -29,21 +29,21 @@ Perhaps most importantly, they don't use any of the typical visual indicators th
 
 ### What should you use instead?
 
-[Stephen Few's Bullet graphs](https://en.wikipedia.org/wiki/Bullet_graph) are an ideal alternative to the dial.  Here's what you get by using them:
+[Stephen Few's Bullet graphs](https://en.wikipedia.org/wiki/Bullet_graph) are an ideal alternative to the dial if representing a single value (with context) is what you want.  Here's what you get by using them:
 
-  * A magnitude representation that makes instant sense to the brain (length)
+  * A magnitude representation that makes instant sense (length)
 
-  * Ranges for status context that cost very little ink and space
+  * Ranges for status context (good and bad values) that cost very little ink and space
 
   * An additional indicator for historical context that can be easily understood and compared
 
-  * Easily scannable and comparable lists of charts
+  * Easily scannable and comparable sets of charts
 
   * A layout that makes labels and current value displays easy to add in a pleasing way.  
-    For example, if you have long labels you can stack multiple bullets vertically and not force your label text to wrap awkwardly or have to space them too far apart.
+    For example, if you have long labels you can stack multiple bullets vertically and not force your label text to wrap awkwardly or have to space them too far apart.  You can scan multiple charts and easily understand their ranges relative to one another.
 
 ### What's next?
 
-I'm continuing to work on data visualization, I think it's the most fun I've had coding in a long time.  I'm working (quite infrequently) on a system that uses websockets to let browsers subscribe to data from various sources, and when I can I'll add some quality displays of data.
+I'm continuing to work on data visualization, I think it's the most fun I've had coding in a long time.  I'm working (quite infrequently) on a system that uses websockets to let browsers subscribe to data from various sources, and when I can I'll add some quality displays of data.  Outside of getting to play with websockets, it's basically an excuse to start using [d3](http://d3js.org/) with websocket data at high frequency and see how it works.
 
 On friday I get to go see [Edward Tufte](https://en.wikipedia.org/wiki/Edward_Tufte) give one of his all-day seminars on data visualization!  I cannot wait, I've been wanting to attend one for years and years.  I'll definitely be writing about the class.
