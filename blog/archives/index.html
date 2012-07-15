@@ -9,8 +9,8 @@
   <meta name="author" content="Erik Cunningham">
 
   
-  <meta name="description" content="Blog Archive 2012 Getting This Set Up&#8230;Again
-Jul 14 2012 posted in meta, visualization Recent Posts Getting This Set Up...Again GitHub Repos &hellip;">
+  <meta name="description" content=" Blog Archive 2012 Getting This Set Up&#8230;Again
+Jul 14 2012 posted in meta, visualization Recent Posts Getting This Set Up...Again ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -120,51 +120,6 @@ Jul 14 2012 posted in meta, visualization Recent Posts Getting This Set Up...Aga
   </ul>
 </section>
 
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-  <a href="https://github.com/trinary">@trinary</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'trinary',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("trinary", , );
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <p>Follow <a href="http://twitter.com/trinary">@trinary</a></p>
-  
-</section>
 
 
 
