@@ -4,7 +4,7 @@
   <title><![CDATA[Category: visualization | Erik Cunningham (@trinary)]]></title>
   <link href="http://trinary.github.com/blog/categories/visualization/atom.xml" rel="self"/>
   <link href="http://trinary.github.com/"/>
-  <updated>2012-07-14T22:18:28-06:00</updated>
+  <updated>2012-07-14T22:28:06-06:00</updated>
   <id>http://trinary.github.com/</id>
   <author>
     <name><![CDATA[Erik Cunningham]]></name>
@@ -42,21 +42,21 @@
 
 <h3>What should you use instead?</h3>
 
-<p><a href="https://en.wikipedia.org/wiki/Bullet_graph">Stephen Few's Bullet graphs</a> are an ideal alternative to the dial.  Here's what you get by using them:</p>
+<p><a href="https://en.wikipedia.org/wiki/Bullet_graph">Stephen Few's Bullet graphs</a> are an ideal alternative to the dial if representing a single value (with context) is what you want.  Here's what you get by using them:</p>
 
 <ul>
-<li><p>A magnitude representation that makes instant sense to the brain (length)</p></li>
-<li><p>Ranges for status context that cost very little ink and space</p></li>
+<li><p>A magnitude representation that makes instant sense (length)</p></li>
+<li><p>Ranges for status context (good and bad values) that cost very little ink and space</p></li>
 <li><p>An additional indicator for historical context that can be easily understood and compared</p></li>
-<li><p>Easily scannable and comparable lists of charts</p></li>
+<li><p>Easily scannable and comparable sets of charts</p></li>
 <li><p>A layout that makes labels and current value displays easy to add in a pleasing way.<br/>
-For example, if you have long labels you can stack multiple bullets vertically and not force your label text to wrap awkwardly or have to space them too far apart.</p></li>
+For example, if you have long labels you can stack multiple bullets vertically and not force your label text to wrap awkwardly or have to space them too far apart.  You can scan multiple charts and easily understand their ranges relative to one another.</p></li>
 </ul>
 
 
 <h3>What's next?</h3>
 
-<p>I'm continuing to work on data visualization, I think it's the most fun I've had coding in a long time.  I'm working (quite infrequently) on a system that uses websockets to let browsers subscribe to data from various sources, and when I can I'll add some quality displays of data.  Outside of getting to play with websockets, it's basically an excuse to start using d3 with websocket data at high frequency and seing how it works.</p>
+<p>I'm continuing to work on data visualization, I think it's the most fun I've had coding in a long time.  I'm working (quite infrequently) on a system that uses websockets to let browsers subscribe to data from various sources, and when I can I'll add some quality displays of data.  Outside of getting to play with websockets, it's basically an excuse to start using <a href="http://d3js.org/">d3</a> with websocket data at high frequency and see how it works.</p>
 
 <p>On friday I get to go see <a href="https://en.wikipedia.org/wiki/Edward_Tufte">Edward Tufte</a> give one of his all-day seminars on data visualization!  I cannot wait, I've been wanting to attend one for years and years.  I'll definitely be writing about the class.</p>
 ]]></content>
