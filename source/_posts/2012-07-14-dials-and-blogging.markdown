@@ -17,11 +17,11 @@ I was recently asked to implement a dial-style representation of a single data p
 
 ### What's a Dial?
 
-By dial, I mean a speedometer-type representation of a value.  You have a circular layout, typically with an indicator pointing from the center to a particular spot on the circle.  By rotating, the indicator points at a different place along the circle and indicates a change in magnitude.
+By dial, I mean a speedometer-type representation of a value, a gauge is another accurate name.  You have a circular layout, typically with an indicator pointing from the center to a particular spot on the circle.  By rotating, the indicator points at a different place along the circle and indicates a change in magnitude.
 
 ### Why don't I like them?
 
-Dials, because of their round nature, take up a ton of space.  For that budget of display area the viewer gets only a single point of information.  It's difficult to represent any context without making things cluttered .  You can add a reference point (e.g. a historical average), but doing so with another indicator will make it look like a clock and require a legend, using a simple dot on the outside of the dial increases the radius of the whole visualization, and so on.
+Dials, because of their round nature, take up a ton of space.  For that budget of display area the viewer gets only a single point of information.  It's difficult to represent any context without making things cluttered.  You can add a reference point (e.g. a historical average), but doing so with another indicator will make it look like a clock and require a legend, using a simple dot on the outside of the dial increases the radius of the whole visualization, and so on.
 
 Furthermore, they are difficult to compare to one another when several are used together.  The indicators for totally different values can be at the same plane, think 9 o'clock vs 3 o'clock on a line of clocks next to each other.
 
