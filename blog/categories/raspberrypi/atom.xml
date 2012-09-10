@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: raspberrypi | Erik Cunningham (@trinary)]]></title>
+  <link href="http://trinary.github.com/blog/categories/raspberrypi/atom.xml" rel="self"/>
+  <link href="http://trinary.github.com/"/>
+  <updated>2012-09-09T23:12:16-06:00</updated>
+  <id>http://trinary.github.com/</id>
+  <author>
+    <name><![CDATA[Erik Cunningham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Raspberry Pi Project Ideas]]></title>
+    <link href="http://trinary.github.com/blog/2012/09/09/raspberry-pi-project-ideas/"/>
+    <updated>2012-09-09T22:07:00-06:00</updated>
+    <id>http://trinary.github.com/blog/2012/09/09/raspberry-pi-project-ideas</id>
+    <content type="html"><![CDATA[<h2>What to do?</h2>
+
+<p>I finally got an RPi last week.  Still haven't gotten all the memory cards and cables and whatnot I'll need to actually use it, but I'm looking forward to getting hold of all that stuff in the next couple days.  I'm wondering what I'm going to do with it.  Here are my current thoughts.</p>
+
+<h3>Something Simple</h3>
+
+<p>The first inclination is to use it as just another computer: a web client driving a public screen, or a media center.  This is boring.  The whole point behind the Raspberry Pi is to make something that can interact with the real world.  Normal Computer Stuff is out.  If it would be better done by a Mac Mini it's not on the cards.</p>
+
+<p>What I need to get started is something very, very simple, but something that uses the GPIO pins on the RPi to interact with the real world in some way.  I can write regular code anywhere, let's do something suited to the hardware.  I figure that input using GPIO is easier than output, so I'm going to make a sampler.</p>
+
+<h3>A Sampler</h3>
+
+<p>It's pretty simple.  There appear to be 17 GPIO pins on the RPI that can be used for input or output.  That means I can hook up 17 buttons to them.  Here's the idea:</p>
+
+<ul>
+<li>Most sampler boards have a 4x4 grid of pads that are used to play back the current bank of sounds.  They tend to have lots of fancy features like velocity sensitivity, LEDs embedded in the buttons to indicate what sounds are playing, and so on.  I will not have any of that.</li>
+<li>Clearly I can replicate the 4x4 grid, but that doesn't leave me much in the way of control featuers.  Granted, I have no real idea what I'll end up using this thing for, but let's at least try to make it fully featured.</li>
+<li>I am a vim user, and I love the idea of modality in interfaces.  Vim uses modal editing to allow every easily accessible key to have a purpose outside of typing a letter, and it ends up being enormously efficient.  So, the 17th button will be the command vs input switch.</li>
+</ul>
+
+
+<p> That gives me 16 control buttons and one button to switch between control mode and input mode.  That'll let me set loop points, move between 4 different stored loops, switch between sound banks, etc.</p>
+
+<p>A sampler sounds like a fun, simple enough starting project, so that's what I'm going to go with.  If it ends up being fun enough, I might wire up a control box with nice arcade buttons.</p>
+]]></content>
+  </entry>
+  
+</feed>

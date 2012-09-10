@@ -4,7 +4,7 @@
   <title><![CDATA[Category: visualization | Erik Cunningham (@trinary)]]></title>
   <link href="http://trinary.github.com/blog/categories/visualization/atom.xml" rel="self"/>
   <link href="http://trinary.github.com/"/>
-  <updated>2012-07-14T22:31:23-06:00</updated>
+  <updated>2012-09-09T23:12:16-06:00</updated>
   <id>http://trinary.github.com/</id>
   <author>
     <name><![CDATA[Erik Cunningham]]></name>
@@ -30,7 +30,7 @@
 
 <h3>What's a Dial?</h3>
 
-<p>By dial, I mean a speedometer-type representation of a value, a gauge is another accurate name.  You have a circular layout, typically with an indicator pointing from the center to a particular spot on the circle.  By rotating, the indicator points at a different place along the circle and indicates a change in magnitude.</p>
+<p>By dial, I mean a speedometer-type representation of a value, gauge is another accurate name.  You have a circular layout, typically with an indicator pointing from the center to a particular spot on the circle.  By rotating, the indicator points at a different place along the circle and indicates a change in magnitude.</p>
 
 <h3>Why don't I like them?</h3>
 
